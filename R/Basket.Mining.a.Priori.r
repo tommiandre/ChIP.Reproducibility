@@ -32,7 +32,7 @@ write.table(master.table.matrix,"master.table.motif.interaction.csv",row.names=T
 library(plyr)
 df_basket_sorted_decrease <- arrange(df_basket,desc(support))
 dim(df_basket_sorted_decrease)
-dim(df_itemList)
+dim(df_itemList) 
 
 
 ##Methylation
